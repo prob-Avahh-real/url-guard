@@ -1,0 +1,56 @@
+#url-guard-banner-root.url-guard-banner {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 2147483646 !important;
+  box-sizing: border-box !important;
+  padding: 12px 16px !important;
+  font-family: "IBM Plex Sans", "Noto Sans SC", "PingFang SC", sans-serif !important;
+  font-size: 14px !important;
+  line-height: 1.45 !important;
+  color: #1a1510 !important;
+  border-bottom: 3px solid #1a1510 !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18) !important;
+}
+
+#url-guard-banner-root.url-guard-warn {
+  background: linear-gradient(90deg, #ffe8a3 0%, #ffd27a 100%) !important;
+}
+
+#url-guard-banner-root.url-guard-danger {
+  background: linear-gradient(90deg, #ffb4a8 0%, #ff8a80 100%) !important;
+}
+
+#url-guard-banner-root .url-guard-title {
+  font-weight: 700 !important;
+  letter-spacing: 0.02em !important;
+  margin-bottom: 4px !important;
+}
+
+#url-guard-banner-root .url-guard-desc {
+  opacity: 0.95 !important;
+  margin-bottom: 8px !important;
+}
+
+#url-guard-banner-root .url-guard-actions {
+  display: flex !important;
+  gap: 8px !important;
+  flex-wrap: wrap !important;
+}
+
+#url-guard-banner-root button {
+  appearance: none !important;
+  border: 1px solid #1a1510 !important;
+  background: #1a1510 !important;
+  color: #fff8ef !important;
+  border-radius: 4px !important;
+  padding: 6px 12px !important;
+  font: inherit !important;
+  cursor: pointer !important;
+}
+
+#url-guard-banner-root button.url-guard-secondary {
+  background: transparent !important;
+  color: #1a1510 !important;
+}

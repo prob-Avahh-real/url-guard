@@ -1,0 +1,14 @@
+{
+  "domains": [
+    "paypa1.com",
+    "paypai.com",
+    "appleid-secure-login.com",
+    "secure-alipay-verify.com",
+    "weixin-safe-login.com",
+    "bocai-vip.xyz",
+    "liuhecai-kaijiang.top",
+    "metamask-wallet-claim.com",
+    "binance-airdrop-claim.com"
+  ],
+  "note": "示例本地黑名单；用户可在弹窗中追加。生产环境应接威胁情报源。"
+}

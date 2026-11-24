@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>URL Guard</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <div class="brand">URL Guard</div>
+    <label class="toggle">
+      <input type="checkbox" id="enabled" checked />
+      <span>启用</span>
+    </label>
+  </header>
+
+  <section id="status" class="status safe">
+    <div class="level" id="level">—</div>
+    <div class="host" id="host"></div>
+    <div class="score" id="score"></div>
+  </section>
+
+  <section>
+    <h2>命中原因</h2>
+    <ul id="reasons" class="reasons"></ul>
+  </section>
+
+  <section class="actions">
+    <button type="button" id="trust">信任此域名</button>
+    <button type="button" id="block" class="danger">拉黑此域名</button>
+  </section>
+
+  <footer>
+    本地启发式甄别 · 非 100% 准确 · 勿在可疑页输入密码或转账
+  </footer>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
